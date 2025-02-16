@@ -98,9 +98,21 @@ From laps 10 until 13 it is clear that his times were progressively getting wors
 
 Leclerc would pit on lap 15, equipping hard compound tires to begin his long stint to the end of the race. However, the undercut move worked on Leclerc for the time being, with Norris taking P6 and Leclerc P7. Just as important, it's from this point forward where the one-stop strategy proved effective against the two-stop strategy. 
 
-On lap 31, Leclerc's racing engineer informs him, "Norris starting to struggle, this is when Red Bull started to have graining, around lap 15 of the stint." He is referring to Red Bull starting the race on hard tires and experiencing degredation around the 15th lap of the stint. Concurrently 
+On lap 31, Leclerc's racing engineer informs him, "Norris starting to struggle, this is when Red Bull started to have graining, around lap 15 of the stint." He is referring to Red Bull starting the race on hard tires and experiencing degredation around the 15th lap of the stint. Concurrently, Norris would lose grip at the second chicane which is a high-speed braking zone. Below is a plot of his telemetry on lap 31 (when he started to struggle) and lap 53 (his fastest lap of the race). The areas enclosed in the red boxes indicate portions of the lap where he lost significant performance, particularly accelerating out of corners which require consistent grip:
 
 ![Norris Tire Strugle](images/NorrisTireStruggle.png "Norris Tire Struggle")
+
+
+
+As seen in the telemetry trace, Norris struggled significantly in the corners, having to settle for slower entry and exit speeds. The image below is a diagram of the the circuit, highlighting the specific corner where he couldn't make the corner due to the lack of grip.
+
+
+![MonzaCircuit](images/MonzaCircuitMap.tiff "Norris Tire Struggle")
+
+Having lost time from the worn tires Norris came to the pits on lap 33 for a fresh set of hard compound tires. Leclerc in the meantime was managing his hard tires well, moving into P1 while McClaren pitted their other driver that was also on a two-stop strategy.
+
+
+Now it is time to take a look at Leclerc and how his lap paced held up during this long stint on the hard tires. Despite
 
 
 
