@@ -68,10 +68,13 @@ On the other hand Ferrari's plan was seen as high-risk high-reward. As mentioned
 
 
 
-![One-Stop Strategy](images/LeclercLapTimes.png "Norris Laps")
+![One-Stop Strategy](images/LeclercLapTimes.png "Leclerc Laps")
 
 
-As seen here, Leclerc pitted once on lap 15. It was highlighted above that Leclerc "pressured" Norris into pitting. On lap 14 (when Norris pitted), Leclerc was in P2 and Norris was in P3 by a gap of ~0.7 seconds. This was confirmed simply There are strong reasons that "pressured" Lando into pitting at the time:
+As seen here, Leclerc pitted once on lap 15. It was highlighted above that Leclerc "pressured" Norris into pitting. On lap 14 (when Norris pitted), Leclerc was in P2 and Norris was in P3 by a gap of ~0.87 to ~0.95 seconds. This was confirmed and cross validated from the official broadcast of the race and summing data from the FastF1 API: 
+
+![Pit Interval](images/LandoPitInterval.png "Norris Pit Interval")
+
 
 
 
