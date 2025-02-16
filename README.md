@@ -83,9 +83,22 @@ IMPORTANT CLARIFICATION:
 
 2. The photo from the broadcast says lap 15 despite Norris pitting on his 14th lap. This is because the official lap count is dictated by where the leader is. In the photo we can see that Piastri is in the lead, who is ~4.2 seconds ahead of Norris. This means Piastri has officially began his 15th lap, however Norris is still on his 14th lap until he crosses the starting line (even in the pits).
 
-There are a few reasons that potentially lead to this pit on lap 14:
-I. If Norris began experiencing tire degredation earlier than expected, this may have caused McClaren to bring him into the pits before losing
 
+
+
+
+This 4.2 second interval is crucial to note due to the fact Norris is inside the "undercut window." An undercut window is an optimal time interval to be within the car in front, to pit a lap earlier for fresh tires. Once new tires are applied, the driver attempts a fast out lap with the intention of overtaking the leading car when they eventually pit. At this particular ciruit, the undercut window is about seconds to 2.5 seconds at most. McClaren had Norris pit in an effort to "overtake Leclerc" as said by his racing engineer.
+
+Based on lap data, Norris began experiencing the effects of tire degredation around lap 10 as seen in the following plot.
+
+![First Stint Laps](images/NorrisLapsBeforePit1.png "Norris Pit Interval")
+
+From laps 10 until 13 it is clear that his times were progressively getting worse before eventually pitting for the hard tire compound.
+
+
+Leclerc would pit on lap 15, equipping hard compound tires to begin his long stint to the end of the race. However, the undercut move worked on Leclerc for the time being, with Norris taking P6 and Leclerc P7. Just as important, it's from this point forward where the one-stop strategy proved effective against the two-stop strategy. 
+
+On lap 31, Leclerc's racing engineer informs him, "Norris starting to struggle, this is when Red Bull started to have graining, around lap 15 of the stint." He is referring to Red Bull starting the race on hard tires and experiencing degredation around the 15th lap of the stint.
 
 
 
