@@ -75,6 +75,18 @@ As seen here, Leclerc pitted once on lap 15. It was highlighted above that Lecle
 
 ![Pit Interval](images/LandoPitInterval.png "Norris Pit Interval")
 
+![Pit Interval Calculated by FastF1](images/LandoPitIntervalFastF1.png "Norris Pit Interval Calculated From FastF1")
+
+IMPORTANT CLARIFICATION: 
+
+1. The difference in the intervals can be attributed to the moment at which they were captured. In the photo of Norris entering the pit lane, it shows the last public broadcast interval before a graphical overlay stating "In Pits." Since he is aggressively applying the brakes his interval would be slightly more by time he reaches the white line of the pit lane (which is ~2 meters away. Keep in mind that Leclerc stayed out so he is maintaining full racing pace.
+
+2. The photo from the broadcast says lap 15 despite Norris pitting on his 14th lap. This is because the official lap count is dictated by where the leader is. In the photo we can see that Piastri is in the lead, who is ~4.2 seconds ahead of Norris. This means Piastri has officially began his 15th lap, however Norris is still on his 14th lap until he crosses the starting line (even in the pits).
+
+There are a few reasons that potentially lead to this pit on lap 14:
+I. If Norris began experiencing tire degredation earlier than expected, this may have caused McClaren to bring him into the pits before losing
+
+
 
 
 
