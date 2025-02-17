@@ -150,6 +150,20 @@ Photo Courtesy of F1Unchained Youtube Channel
 
 The 2024 iteration of the Monza rear wing has a less pronounce beam, thus trimming drag even more from the previous year. Trimming the wing too much can cause instability in the rear, so this is a testiment to the engineers balancing the car well. While these two aerodynamic upgrades were not the only reason for Leclcerc winning, it played a crucial role to allow him as the driver to execute their devilish one-stop strategy.
 
+![GP Photo](images/GPPhoto1.jpeg "GP Photo")
+
+
+Below are McLaren's Monza spcific upgrades:
+
+**McLaren Upgrades**
+
+- Front Corner: "To cope with the specific demands of this circuit, the Front Corner geometry has been revised, with the primary aim of increasing Brake Cooling performance while maintaining aerodynamic efficiency."
+
+- Front Wing: "The Front Wing Flap has been redesigned to extend the available aerobalance range, which could be a requirement given the specific circuit layout."
+
+
+
+Firstly, it is important to address McLaren's front corner upgrade, particularly in the wording. They say this upgrade was to "cope with the specific demands of this circuit." As previously noted, McLaren had a reputation of doing well at high downforce circuits that favor more aero balance. Coming to a circuit such as Monza, which is opposite, required more significant changes to the car design. 
 
 
 
