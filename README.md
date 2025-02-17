@@ -172,11 +172,21 @@ With the car fully integrated, the brake duct is partially visible in the encirc
 
 ![McLaren Track Shot](images/MDuct.png "McLaren Track Shot")
 
-As previously mentioned, the brake ducts are important for cooling but also is integral to the aerodynamics of the car by reducing the "outwash" effect. Outwash is caused by the front tires generate turbulent air, disrupting the aerodynamics for the rest of the car. Therefore, brake ducts aim to better control and redirect air towards the sidepods and floor while still cooling the brakes. Below is a diagram of an older F1 car model, but still showcases the general premise of brake ducts. The red rectangle highlights where the ducts are located and we can see the air is controlled into the sidepod intakes and into the brakes. The red arrows indicate where the air is directed after coming in contact with the brake ducts:
+As previously mentioned, the brake ducts are important for cooling but also is integral to the aerodynamics of the car by reducing the "outwash" effect. Outwash is caused by the front tires generate turbulent air, disrupting the aerodynamics for the rest of the car. Therefore, brake ducts aim to better control and redirect air towards the sidepods and floor while still cooling the brakes. Below is a diagram of an older F1 car model, but still showcases the general premise of brake ducts. The red rectangle highlights where the duct is located. The red arrows indicate where the air is directed after coming in contact with the brake ducts:
 
 
 
 ![Outwash](images/OutwashSim.jpeg "Outwash")
+
+
+
+The other Monza specific update, for McLaren, was their front wing. Similar to other teams, the purpose of the front wing upgrade was to reduce drag for straightline speed and less downforce on the front of the car, in theory mitigating front degredation. 
+
+![Outwash](images/OutwashSim.jpeg "Outwash")
+
+However, there is a critical detail to point out in McLaren's reasoning to Ferrari's. Ferrari trimmed their front wing for the "required" aero balance range for Monza. McLaren trimmed their front wing to "extend the available aero balance range." What does this mean? Extending an operational aero balance range means widening the scope of adjustments McLaren make to their aero dynamic package. This statement could've potentially hinted at McLaren having a level of uncertainty for their package at Monza if they needed to widen the range of their aero balance. This very well could be a too much of an assumption, but given McLaren had been struggling with front end degredation throughout the season, it would make sense to widen their flexibility to make changes. This claim can be further validated given their drastic difference in their front wing design for the practice session at Monza compared to the race. Below is an image comparing the front wing design McLaren used in their first practice session and what was implemented in the race. 
+
+
 
 
 
