@@ -139,10 +139,16 @@ Firstly, like many teams at Monza, Ferrari opted for a lower downforce front win
 
 
 ![Ferrari Front Wing](images/FerrariFrontWings.png "Ferrari Front Wings")
+Photo Courtesy of F1Unchained Youtube Channel
 
 While it may seem like there is little to no difference in the front wing, "depowering" the wing my shallowing it significantly reduces the forces implied onto the tires. Therefore, this upgrade makes it apparent that minimizing tire degredation at the expense of slower cornering was a priority for Ferrari. Concurrently, Monza is known for it's long straights, so a low downforce package is a "kill two birds with one stone" solution not just for Ferrari but all of the teams that weekend. Ferrari also mentioned this low downforce setup providing the "require aero balance" for the circuit. Simply put, aero balance quantifies how much air is pushed and distributed on the car, from the front to the rear. In the case of Monza, since it has high speed straights and slow corners, the optimal aero balance range rewards lower front load (42%-44%). An aero balance that favors too much of the front can cause the rear to slide in corners, making it less stable. Contrary, an aero balance that favors too much of the rear can cause understeer, making it difficult to turn the car with Monza's sharp chicans. While it is not known what Ferrari's aero balance was at Monza, it is safe to assume this front wing upgrade aimed to perform within the 42%-44% range. 
 
 Ferrari' other upgrade involved their rear wing, which aimed to further reduce downforce, once again favoring straightline speed and reducing aerodynamic load placed on the tires. Below is another photo comparison of Ferrari's rear wing design from the 2023 Italian Grand Prix and 2024 Italian Grand Prix:
+
+![Ferrari Rear Wing](images/FerrariRearWings.png "Ferrari Rear Wings")
+Photo Courtesy of F1Unchained Youtube Channel
+
+The 2024 iteration of the Monza rear wing has a less pronounce beam, thus trimming drag even more from the previous year. Trimming the wing too much can cause instability in the rear, so this is a testiment to the engineers balancing the car well. While these two aerodynamic upgrades were not the only reason for Leclcerc winning, it played a crucial role to allow him as the driver to execute their devilish one-stop strategy.
 
 
 
