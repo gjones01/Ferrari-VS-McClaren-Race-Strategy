@@ -112,7 +112,30 @@ As seen in the telemetry trace, Norris struggled significantly in the corners, h
 Having lost time from the worn tires Norris came to the pits on lap 33 for a fresh set of hard compound tires. Leclerc in the meantime was managing his hard tires well, moving into P1 while McClaren pitted their other driver that was also on a two-stop strategy.
 
 
-Now it is time to take a look at Leclerc and how his lap paced held up during this long stint on the hard tires. Despite
+Now it is time to take a look at Leclerc and how his lap paced held up during this long stint on the hard tires. Below is a telemtry trace of Leclerc's lap after retaking the lead compared to his fastest lap of the race. It is incredibly impressive to see the pace he was able to maintain while managing worn tires. There are corners where Leclerc accelerated out quicker than his fastest lap of the race. This is truly a testiment to Leclerc's skill as a driver but also warrants praise for the engineers that set the car up for that particular weekend:
+
+
+![Leclerc Trace](images/LeclercFastvsSave.png "Leclerc Trace")
+
+Leclerc would go on to maintain his lead on the battered hard tire compounds and win the Italian Grand Prix. The one-stop strategy at Monza is very risky, requiring surgical precision by the driver executing the stints, and the engineers properly tuning the car for the circuit. 
+
+
+3. Aerodynamic Upgrades (Ferrar vs McLaren)
+
+Ferrari and McLaren brought upgrades to their cars the week of the Italian Grand Prix. With how minimal the margins are in Formula 1, the setup of the car can make the difference in winning or losing. Both teams provided official receipts to the FIA of the upgrades they were bringing to the Italian Grand Prix. This can provide valuable insights on what teams prioritize for performance at a circuit. Both teams brought many upgrades but only specific ones were intended specifically for the Monza circuit, as stated by the teams.
+
+Below are Ferrari's Monza specific upgrades:
+
+*Ferrari*
+- Front wing: "The depowered front wing flap provides the required aero balance range associated to the optimum downforce level anticipated for Monza. Different trims are available, to allow modulation."
+
+- Rear wing: "This update features depowered Top and Lower Rear Wing profiles in order to adapt to Monza layout peculiarities and efficiency requirements. Both a new design and the carry-over of last year’s geometries (TRW and LRW) will be available."
+
+
+
+
+
+- 
 
 
 
