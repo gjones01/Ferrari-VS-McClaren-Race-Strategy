@@ -172,9 +172,11 @@ With the car fully integrated, the brake duct is partially visible in the encirc
 
 ![McLaren Track Shot](images/MDuct.png "McLaren Track Shot")
 
-As previously mentioned, the brake ducts are important for cooling but also is integral to the aerodynamics of the car by reducing the "outwash" effect. Outwash is caused by the front tires generate turbulent air, disrupting the aerodynamics for the rest of the car. Therefore, brake ducts aim to better control and redirect air towards the sidepods and floor while still cooling the brakes. Below is a diagram of an older F1 car model, but still showcases the general premise of brake ducts. The red rectable highlights where the ducts are located and we can see the air is controlled into the sidepod intakes and into the brakes:
+As previously mentioned, the brake ducts are important for cooling but also is integral to the aerodynamics of the car by reducing the "outwash" effect. Outwash is caused by the front tires generate turbulent air, disrupting the aerodynamics for the rest of the car. Therefore, brake ducts aim to better control and redirect air towards the sidepods and floor while still cooling the brakes. Below is a diagram of an older F1 car model, but still showcases the general premise of brake ducts. The red rectangle highlights where the ducts are located and we can see the air is controlled into the sidepod intakes and into the brakes. The red arrows indicate where the air is directed after coming in contact with the brake ducts:
 
 
+
+![Outwash](images/OutwashSim.jpeg "Outwash")
 
 
 
