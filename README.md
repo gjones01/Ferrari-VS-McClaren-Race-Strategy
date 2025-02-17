@@ -163,7 +163,7 @@ Below are McLaren's Monza spcific upgrades:
 
 
 
-Firstly, it is important to address McLaren's front corner upgrade, particularly in the wording. They say this upgrade was to "cope with the specific demands of this circuit." As previously noted, McLaren had a reputation of doing well at high downforce circuits that favor more aero balance. Coming to a circuit such as Monza, which is opposite, required more significant changes to the car design. 
+Firstly, it is important to address McLaren's front corner upgrade was implemented for brake cooling. However, brake ducts are not just for maintain brake temperatures but play a role in tire temperatures, which in turn contributes to tire degredation rate. Below is a photo of McLaren's brake duct the weekend of the Italian GP. The 
 
 
 
