@@ -163,7 +163,17 @@ Below are McLaren's Monza spcific upgrades:
 
 
 
-Firstly, it is important to address McLaren's front corner upgrade was implemented for brake cooling. However, brake ducts are not just for maintain brake temperatures but play a role in tire temperatures, which in turn contributes to tire degredation rate. Below is a photo of McLaren's brake duct the weekend of the Italian GP. The 
+Firstly, it is important to address McLaren's front corner upgrade was implemented for brake cooling. However, brake ducts are not just for maintain brake temperatures but play a role in tire temperatures, which in turn contributes to tire degredation rate. Below is a photo of McLaren's brake duct the weekend of the Italian GP.
+
+![McLaren Brake Duct](images/McLarenBrakeDuct.png "McLaren Brake Duct")
+
+With the car fully integrated, the brake duct is partially visible in the encircled region of the below photo:
+
+
+![McLaren Track Shot](images/MDuct.png "McLaren Track Shot")
+
+As previously mentioned, the brake ducts are important for cooling but also is integral to the aerodynamics of the car by reducing the "outwash" effect. Outwash is caused by the front tires generate turbulent air, disrupting the aerodynamics for the rest of the car. Therefore, brake ducts aim to better control and redirect air towards the sidepods and floor while still cooling the brakes. Below is a diagram of an older F1 car model, but still showcases the general premise of brake ducts. The red rectable highlights where the ducts are located and we can see the air is controlled into the sidepod intakes and into the brakes:
+
 
 
 
