@@ -20,7 +20,7 @@ At the **2024 Italian Grand Prix**, Ferrari and McClaren took two different appr
     - Ferrari opted for a one-stop strategy, maximizing track position at the expense of staying on older tires.
     - McClaren opted for a two-stop strategy, prioritizing racing pace at the expense of pitting an additional time.
 
-What this project analyses:
+What this project analyzes:
 - Which strategy was more effective and why
 - Telemetry differences between Leclerc and Norris
 - How tire degredation and car upgrades influenced the race outcome
@@ -34,24 +34,26 @@ Charles Leclerc went on to win the 2024  Italian Grand Prix, deploying Ferrari's
 | **Ferrari**| Leclerc|  **One-Stop**|  1  |     Medium → Hard |
 | **McLaren**| Norris |  **Two-Stop**|  2  |     Medium → Hard → Soft |
 
-Before analyzing the differing strategies it is important to state the pros and cons of each.
+Before analyzing the differing strategies it is important to state the pros and cons of each strategy.
 
-*One-Stop*
+**One-Stop**
 Pros: 
 - Improve track position later in a stint. By pitting once, a team plays the long game of staying out on track when teams decide to pit later. This is ultimately in hopes of maintaining track position long enough until the ending stages of the race.
 
 Cons:
-- By only pitting once, it typically involves a compromise in racing pace. While it is benefitional to have stayed on track longer, for position, it requires less agressive driving to preserve the life of the tires. In the end, if executed poorly, the depleted tires could result in a loss of track position by cars with fresher tires.
+- By only pitting once, it typically involves a compromise in racing pace. While it is benefitional to have stayed on track longer, for position, it requires more attention to preserving the life of the tyres. In the end, if executed poorly, the depleted tyres could result in a *loss* of track position by cars with fresher tyres.
 
-*Two-Stop*
+**Two-Stop**
 Pros:
-- An imporovement in racing pace, allowing the driver to driver with a more aggressive style to maximize the life of the tires.
+- An imporovement in racing pace, allowing the driver to driver with a more aggressive style to maximize the life of the tyres.
 
 Cons:
 - A potential loss in track position due to the extra pit. 
 
-The circuit at Monza has a reputation of being a high-degreation circuit, but due to the low drag setups and high speeds, degredation is minimized. However, this is simply in theory. The reality is there are hundreds of variables that dictate what makes a one-stop or two-stop strategy succeed. 
+*Track Layout*
+The circuit at Monza has a reputation of being a high-degreation circuit, but due to the low drag setups and high speeds, degredation is minimized. In addition, Monza underwent a renovation that involved resurfacing the track with new tarmac. This contributed to more degredation and graining compared to previous years. 
 
+*Brief Summary Of What Led To The Results:*
 McClaren did well in qualifying, capturing front row spots on the grid at P1 and P2. Ferrari was not far behind with Leclerc starting P4 and Sainz starting P5. With McClaren showcasing good pace in qualifying, fans and analysts were eager to see if they were able to sustain such pace over the course of the grand prix. Charles Leclerc would go on to win the Italian Grand Prix by executing a risky one-stop strategy. With exceptional tire management, pace and executing by the pit crew, He was able to finish ahead of both McLarens, winning Ferrari's home race.
 
 **3. Lap Time & Telemetry Analysis**
@@ -66,16 +68,14 @@ As seen in the plot, Norris entered the pit lane on laps 14 and 32.
 
 
 
-
-
-On the other hand Ferrari's plan was daring, given the conditions. As mentioned before, the risk of tire degredation and drop in performance was a very real threat when executing a one-stop strategy. Concurrently, in the event one finds themselves with good track position, they run the risk of needing to defend their position on worn tires which is an extremely difficult task. Charles Leclerc in a post-race interview made it clear that Ferrari was not entirely confident in the one-stop strategy in the beginning stages of the race after hearing that Red Bull was experiencing graining on the hard tire compound. However Leclerc had a gut feeling that it was the right play, "However, when I  put it on I had quite a good feeling. I just  wanted to put Lando under pressure and he pitted in front of me. Then I managed to get back some front  grip whenever he was out the way." Below is a graph of Leclerc's lap times through the entire race, once again with spikes indicating when he entered the pits:
+On the other hand Ferrari's plan was daring, given the conditions. As mentioned before, the risk of tyre degredation and drop in performance was a very real threat when executing a one-stop strategy. Concurrently, in the event one finds themselves with good track position, they run the possibility of needing to defend their position on worn tyres which is a difficult task. Charles Leclerc, in a post-race interview made it clear that Ferrari was not entirely confident in the one-stop strategy in the beginning stages of the race after receiving news that Red Bull was experiencing graining on the hard tire compound. However, Leclerc had a gut feeling that it was the correct play to pressure Norris into pitting. Leclerc in a post-race interview explained that pressuring Norris into pitting in front of him helped the handling of his car. The reason this is important is due to the fact Leclerc was not driving in dirty (turbulent) air but rather clean air. By driving in clean air, Leclerc's car was able to full optimize the aerodynamic setup for the remainder of the race. We will come back to the topic of the car's aerodynamics in section 5. Below is a graph of Leclerc's lap times through the entire race, once again with spikes indicating when he entered the pits (lap 15):
 
 
 
 ![One-Stop Strategy](images/LeclercLapTimes.png "Leclerc Laps")
 
 
-As seen here, Leclerc pitted once on lap 15. It was highlighted above that Leclerc "pressured" Norris into pitting. On lap 14 (when Norris pitted), Leclerc was in P2 and Norris was in P3 by a gap of ~0.87 to ~0.95 seconds. This was confirmed and cross validated from the official broadcast of the race and summing data from the FastF1 API: 
+On lap 14 (when Norris pitted), Leclerc was in P2 and Norris was in P3 by a gap of ~0.87 to ~0.95 seconds. This was confirmed and cross validated from the official broadcast of the race and summing telemetry data from the FastF1 API: 
 
 ![Pit Interval](images/LandoPitInterval.png "Norris Pit Interval")
 
@@ -91,7 +91,7 @@ IMPORTANT CLARIFICATION:
 
 
 
-This <1 second interval is crucial to note due to the fact Norris is inside the "undercut window." Undercutting is a method of overtaking a car by pitting earlier than them to equip fresher, faster tyres. Once new tyres are applied, the driver attempts a fast out lap with the intention of overtaking the leading car when they eventually pit. As one would imagine, the likelyhood of achieving an undercu increases the closer one gets to the car in front. At this particular ciruit, the undercut window is about seconds to 2.5 seconds at most. Therefore, attempting an undercut outside of this range will more than likely fail. In this case, McClaren had Norris pit in an effort to undercut Leclerc, as said by his racing engineer. 
+This <1 second interval is crucial to note due to the fact Norris was inside the "undercut window." Undercutting is a method of overtaking a car by pitting earlier than them to equip fresher, faster tyres. Once new tyres are applied, the driver attempts a fast out lap with the intention of overtaking the leading car when they eventually pit. As one would imagine, the likelyhood of achieving an undercu increases the closer one gets to the car in front. At this particular ciruit, the undercut window is about seconds to 2.5 seconds at most. Therefore, attempting an undercut outside of this range will more than likely fail. In this case, McClaren had Norris pit in an effort to undercut Leclerc, as said by his racing engineer. 
 
 Based on lap time data, Norris began experiencing the effects of tire degredation from laps 10 to 13 before pitting. Below is a plot of Lando's lap times from the beginning of the race up until the lap before his first pit. There is an upward trend starting at lap 10 which indicates a drop off in tire performance.
 
@@ -101,10 +101,14 @@ Based on lap time data, Norris began experiencing the effects of tire degredatio
 It is clear that Norris was not going to be able to traditionally overtake Leclerc on his current set of tires. Therefore, the team opted to undercut after seeing slower lap times.
 
 
-Leclerc would pit on lap 15, equipping hard compound tyres to begin his long stint to the end of the race. However, the undercut move worked on Leclerc for the time being, with Norris taking P6 and Leclerc P7. It's from this point forward where the one-stop strategy proved effective against the two-stop strategy. 
+Leclerc would pit one lap later, equipping hard compound tyres to begin his long stint to the end of the race. However, the undercut move worked on Leclerc for the time being, with Norris taking P6 and Leclerc P7. It's from this point forward where the one-stop strategy proved effective against the two-stop strategy. 
 
 
-On lap 31, Leclerc's racing engineer, Bryan Bozzi, informs him "Norris starting to struggle, this is when Red Bull started to have graining, around lap 15 of the stint." He is referring to Red Bull initiating the race on hard tire compounds and experiencing degredation around their 15th lap of the stint. Concurrently, Norris would lose grip at the second chicane, which is a high-speed braking zone. Below is a plot of his telemetry on lap 31 (when he started to struggle) and lap 53 (his fastest lap of the race). The areas enclosed in the red boxes indicate portions of the lap where he lost significant performance, particularly descelerating in and accelerating out of corners.
+On lap 31, Leclerc's racing engineer, Bryan Bozzi, informs him "Norris starting to struggle, this is when Red Bull started to have graining, around lap 15 of the stint." He is referring to Red Bull initiating the race on hard tire compounds and experiencing degredation around their 15th lap of the stint. Concurrently, Norris would lose grip at the second chicane, which is a high-speed braking zone. It was previously mentioned that Leclerc "pressured" Norris into pitting in front of him. This is because of the gap that was closing between the two drivers. Leclerc got within 0.5 seconds of Norris, while Norris was experiencing significant loss in performance in his own tyres. Below is a screenshot highlighting the interval Leclerc was able to create that ultimately "pressured" McLaren to pit Norris:
+
+
+
+Below is a plot of his telemetry on lap 31 (when he started to struggle) and lap 53 (his fastest lap of the race). The areas enclosed in the red boxes indicate portions of the lap where he lost significant performance, particularly descelerating in and accelerating out of corners.
 
 ![Norris Tire Strugle](images/NorrisTireStruggle.png "Norris Tire Struggle")
 
@@ -125,10 +129,11 @@ Now it is time to take a look at Leclerc and how his lap paced held up during th
 
 Leclerc would go on to maintain his lead on the hard tyre compound and win the Italian Grand Prix. The one-stop strategy at Monza was very risky, requiring surgical precision by the driver executing the stints, and the engineers properly tuning the car for the circuit. 
 
-Taking a look at both Leclerc and Norris on lap 32 (just before Norris Pitted), we can see the result of Leclerc being able to maintain the life in his tyres, and Norris struggling to even push. In particular, Norris struggled more exiting the corners and Leclerc was able to maintain higher top end speeds while not degrading his tyres:
+Taking a look at both Leclerc and Norris on lap 32 (just before Norris Pitted), we can see the result of Leclerc being able to maintain the life in his tyres, and Norris struggling to push. In particular, Norris struggled exiting the corners and Leclerc was able to maintain higher top end speeds while not degrading his tyres:
 
 ![Leclerc vs Norris](images/LeclercNorris.png "Leclerc vs Norris Trace")
 
+NOTE: The drop off in Norris' telemetry at the end of the plot is due to him entering the pit lane.
 
 **4. Aerodynamic Package**
 Leclerc managed to pull off one of the more daring strategies of the 2024 season and it begs the question: Why was his car able to minimize degredation so well compared to McLaren? On Norris' 17th lap of his first stint on the hard compound, he was suffering from so much understeer he couldn't make the turn at the second chicane. On the other hand Leclerc was at about the same tyre life into his stint and managed to consistently output lap times comparable to his fastest lap.
