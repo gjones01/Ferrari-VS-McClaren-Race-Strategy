@@ -8,9 +8,9 @@ One-Stop VS Two-Stop Strategy
     - Tire Strategy
 3. Telemetry & Lap Time Analysis
 4. Tire Management & Degredation
-5. Impact of Car Upgrades
-6. Findings & Conclusion
-7. Future Work
+5. Aerodynamic Upgrades & Impact On Performance
+6. Building An AI For 
+7. Findings & Conclusion
 8. References
 
 
@@ -104,7 +104,7 @@ On lap 31, Leclerc's racing engineer informs him, "Norris starting to struggle, 
 
 
 
-As seen in the telemetry trace, Norris struggled significantly in the corners, having to settle for slower entry and exit speeds. The image below is a diagram of the the circuit, highlighting the specific corner where he couldn't make the corner due to the lack of grip.
+As seen in the telemetry trace, Norris struggled entry and exist of the corners. At the peaks of the telemetry trace, he was braking sooner and entering the corner slower which is a sign of lost grip. Compare this to his fastest lap where he broke later and carried more speed into the corners, which is resembled by the sharp dip in the trace. The image below is a diagram of the the circuit, highlighting the specific corner where he couldn't make the corner due to the lack of grip.
 
 
 ![MonzaCircuit](images/MonzaCircuitMap.tiff "Norris Tire Struggle")
@@ -182,9 +182,20 @@ As previously mentioned, the brake ducts are important for cooling but also is i
 
 The other Monza specific update, for McLaren, was their front wing. Similar to other teams, the purpose of the front wing upgrade was to reduce drag for straightline speed and less downforce on the front of the car, in theory mitigating front degredation. 
 
-![Outwash](images/OutwashSim.jpeg "Outwash")
+However, there is a critical detail to point out in McLaren's reasoning to Ferrari's. Ferrari trimmed their front wing for the "required" aero balance range for Monza. McLaren trimmed their front wing to "extend the available aero balance range." What does this mean? Extending an operational aero balance range means widening the scope of adjustments McLaren make to their aero dynamic package. This statement could've potentially hinted at McLaren having a level of uncertainty for their package at Monza if they needed to widen the range of their aero balance. This very well could be a too much of an assumption, but given McLaren had been struggling with front end degredation throughout the season, it would make sense to widen their flexibility to make changes. This claim can be further validated given their drastic difference in their front wing design for the practice session at Monza compared to the race. Below is an image comparing the front wing design McLaren used in their first practice session(right) and what was implemented in the race(left). 
 
-However, there is a critical detail to point out in McLaren's reasoning to Ferrari's. Ferrari trimmed their front wing for the "required" aero balance range for Monza. McLaren trimmed their front wing to "extend the available aero balance range." What does this mean? Extending an operational aero balance range means widening the scope of adjustments McLaren make to their aero dynamic package. This statement could've potentially hinted at McLaren having a level of uncertainty for their package at Monza if they needed to widen the range of their aero balance. This very well could be a too much of an assumption, but given McLaren had been struggling with front end degredation throughout the season, it would make sense to widen their flexibility to make changes. This claim can be further validated given their drastic difference in their front wing design for the practice session at Monza compared to the race. Below is an image comparing the front wing design McLaren used in their first practice session and what was implemented in the race. 
+![Wing Comparison](images/McLarenWingComp.png "Wing Comparison")
+
+Teams typically run more aggressive setups in qualifying since there is less emphasis on preserving tires. Based on publicly available photos of designs, McLaren's front degredation reputation, the nature of the Monza circuit and the engineer's wording in their upgrade reasons, it is realistic that McLaren was not entirely sure what the best balance was for the car, opting for a package that would bode well in qualifiying. This worked to solidify a good track position at the start of the race, but from that point became executing a two stop strategy to the best their ability given the circumstance. Obviously it was not quite enough, but it gives some insight on the constant attention to detail that F1 engineers and mechanics face on a weekly basis.
+
+
+
+**Findings & Conclusion**
+
+Both Ferrari and McLaren came to Monza facing similar obstacles: optimizing their car for low downforce. Ferrari's car was not naturally strong on low downforce circuits. Their one-stop strategy was bold, the drive by Leclerc was surgical and the engineering of the car was balanced. These factors tethered together culminated in one of the most exciting wins of the 2024 F1 season. On the other hand, both McLaren drivers were not far off from Leclerc which indicates they did their best given the circumstances. Norris himself in a post-race interview said, "They[Ferrari] did something with strategy we would not have been able to achieve today" nodding his head to the Ferrari's daring strategy. McLaren potentially saw weakness in their car heading into Monza and attempted to balance their car to the best of their ability, but not enough. Their acknowledgement of their front tire degredation issue sheds light on the fact they were not able to find a solution as efficient as Ferrari. However, McLaren would go on to win the Constructors Championship at the end of the 20204, finishing the season with solid performance.
+
+
+
 
 
 
