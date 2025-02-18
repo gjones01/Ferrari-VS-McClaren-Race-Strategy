@@ -121,9 +121,13 @@ Having lost stability from the worn tyres, Norris came to the pits on lap 33 for
 Now it is time to take a look at Leclerc and how his lap paced held up during this long stint on the hard tyres. Below is a telemtry trace of Leclerc, on lap 39, after retaking the lead compared to his fastest lap of the race. It is incredibly impressive to see the pace he was able to maintain while managing worn tires. At this point in the stint, he was past the point where Ferrari noticed Red Bull's hard compound degrading. However, Leclerc showed minimal signs of degredation which is a main proponent to him maintaining pace. There are corners where Leclerc accelerated out quicker than his fastest lap of the race. This is truly a testiment to Leclerc's skill as a driver but also warrants analysis into other reasons as to why he was able to do this:
 
 
-![Leclerc Trace](images/LeclercFastvsSave.png "Leclerc Trace")
+![Leclerc Trace](images/LeclercFastSave.png "Leclerc Trace")
 
 Leclerc would go on to maintain his lead on the hard tyre compound and win the Italian Grand Prix. The one-stop strategy at Monza was very risky, requiring surgical precision by the driver executing the stints, and the engineers properly tuning the car for the circuit. 
+
+Taking a look at both Leclerc and Norris on lap 32 (just before Norris Pitted), we can see the result of Leclerc being able to maintain the life in his tyres, and Norris struggling to even push. In particular, Norris struggled more exiting the corners and Leclerc was able to maintain higher top end speeds while not degrading his tyres:
+
+![Leclerc vs Norris](images/LeclercNorris.png "Leclerc vs Norris Trace")
 
 
 **4. Aerodynamic Package**
