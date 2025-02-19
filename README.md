@@ -117,12 +117,12 @@ Below is a screenshot highlighting the interval Leclerc was able to create, whic
 
 ![Leclerc Pressure](images/LeclercPressure.png "Leclerc Pressure")
 
-To visualize the difference in performance, below is a trace of his telemetry on lap 31 (when he started to struggle) and lap 53 (his fastest lap of the race). The areas enclosed in the red boxex indicate portions of the lap where he lost significant performance, particularly descelerating in and accelerating out of corners.
+To visualize the difference in performance, below is a trace of his telemetry on lap 31 (when he started to struggle) and lap 16 (when his tyres were young). The area enclosed in the red box indicate where he lost substantial grip at the second chicane, proceeding through the corner much slower before regaining traction to exit. 
 
-![Norris Tire Strugle](images/NorrisTireStruggle.png "Norris Tire Struggle")
+![Norris Tire Strugle](images/NorrisFirstStint.png "Norris Tire Struggle")
 <br><br>
 
-At the peaks of the telemetry trace, he was braking sooner (blue) and entering the corner slower which is a sign of less grip. Compare this to his fastest lap (red) where he was braking later and carrying more speed into the corners. This is resembled by the sharp dip in the trace compared to the smooth, parabolic trace. The image below is a diagram of the the circuit, highlighting the specific corner where he couldn't make the chicane due to the lack of grip.
+At the peaks of his telemetry trace, his top end speeds were not suffering as much as his corners, which is when front tyre grip matters most. Below is a map of Monza with the chicane highlighted where he lost substantial grip. 
 <br><br>
 
 ![MonzaCircuit](images/MonzaCircuitMap.tiff "Norris Tire Struggle")
@@ -133,7 +133,7 @@ Having lost stability from the worn tyres, Norris came to the pits on lap 33 for
 
 *Leclerc's Daunting Hard Tyre Stint*
 
-Now it is time to take a look at Leclerc and how his lap paced held up during this long stint on the hard tyres. Below is a telemtry trace of Leclerc, on lap 39, after retaking the lead compared to his fastest lap of the race. It is incredibly impressive to see the pace he was able to maintain while managing worn tires. At this point in the stint, he was in the duration threshold Ferrari noticed Red Bull's hard compound degrading. However, Leclerc showed minimal signs of degredation which is a main proponent to him maintaining pace. A contributing factor this that was his ability to drive in clean air, since Norris went into the pits. Therefore, Leclerc's car was able to maximize the aerodynamics to reduce graining. There were corners where Leclerc accelerated out quicker than his fastest lap of the race. This is truly a testiment to Leclerc's skill as a driver but also warrants analysis into other reasons as to why he was able to do this:
+Now it is time to take a look at Leclerc and how his lap pace held up during this long stint on the hard tyres. Below is a telemtry trace of Leclerc, on lap 39, after retaking the lead compared to his fastest lap of the race. It is incredibly impressive to see the pace he was able to maintain while managing worn tires. At this point in the stint, he was in the duration threshold where Ferrari witnessed Red Bull's hard compound degrading. However, Leclerc showed minimal signs of degredation which is a main proponent to him sustaining his pace. A contributing factor this that was his ability to drive in clean air, since Norris went into the pits. Therefore, Leclerc's car was able to maximize the intended aerodynamics to reduce graining. There were corners where Leclerc accelerated out quicker than his fastest lap of the race. This is truly a testiment to Leclerc's skill as a driver but also warrants analysis into other reasons as to why he was able to do this:
 <br><br>
 
 ![Leclerc Trace](images/LeclercFastSave.png "Leclerc Trace")
@@ -149,7 +149,7 @@ NOTE: The drop off in Norris' telemetry at the end of the plot is due to him ent
 
 **4. Aerodynamic Package**
 
-Leclerc managed to pull off one of the more daring strategies of the 2024 season and it begs the question: Why was his car able to minimize degredation so well compared to McLaren? Ferrari and McLaren brought significant upgrades to their cars the week of the Italian Grand Prix. Both teams provided official receipts to the FIA of the upgrades they were bringing to the Italian Grand Prix which can provide valuable insights on what teams prioritize for performance at a circuit. 
+Leclerc managed to pull off one of the more daring strategies of the 2024 season and it begs the question: Why was his car able to minimize degredation, yet maintain good pace compared to McLaren? Ferrari and McLaren brought significant upgrades to their cars the week of the Italian Grand Prix. Both teams provided official receipts to the FIA of the upgrades they were bringing to the Italian Grand Prix which can provide valuable insights on what teams prioritize for performance at a circuit. 
 
 *Below are Ferrari's Monza specific upgrades:*
 
@@ -168,12 +168,15 @@ Firstly, like many teams at Monza, Ferrari opted for a lower downforce front win
 Photo Courtesy of F1Unchained Youtube Channel
 <br><br>
 
-While it may seem like there is little to no difference in the front wing, "depowering" the wing my shallowing it significantly reduced the forces implied onto the tyres. Therefore, this upgrade made it apparent that minimizing tyre degredation at the expense of slower cornering was a priority for Ferrari. Concurrently, Monza is known for it's long straights, so a low downforce package is a "kill two birds with one stone" solution not just for Ferrari but all of the teams that weekend. Ferrari also mentioned this low downforce setup provied the "require aero balance" for the circuit.
+While it may seem like there is little to no difference in the front wing, "depowering" the wing by shallowing it reduces the downforce implied on the front of the car. In turn this reduces the stress on the tyres, thus minimizing tyre degredation. This upgrade made it apparent that minimizing tyre degredation at the expense of slower cornering was a priority for Ferrari. Concurrently, Monza is known for it's long high-speed straights, so a low downforce package is a "kill two birds with one stone" solution not just for Ferrari but all of the teams that weekend. Ferrari also stated that this low downforce setup in the front wing provied the "required aero balance" for the circuit.
 <br><br>
 
 *What Is Aero Balance?*
 
-Aero balance quantifies how much air is pushed and distributed on the car, from the front to the rear. In the case of Monza, since it has high speed straights and slow corners, the optimal aero balance range rewards lower front load (AB ~42%-44%). An aero balance that favors too much of the *front* can cause the rear to slide in corners, making it less stable. Contrary, an aero balance that favors too much of the *rear* can cause understeer, making it difficult to turn the car with Monza's sharp chicanes. While it is not known what Ferrari's exact aero balance was at Monza, it is safe to assume this front wing upgrade aimed to perform within the optimal 42%-44% range. 
+Aero balance quantifies how much total downforce is distributed onto the front axle. In the case of Monza, since it has high speed straights and slow corners, the optimal aero balance range rewards lower front load (AB ~42%-44%). So this means the optimal aero balance is a package that distrubutes ~42%-44% of the downforce onto the front wing. An aero balance that favors too much of the *front* can cause the rear to slide in corners, making it less stable. Contrary, an aero balance that favors too much of the *rear* can cause understeer, making it difficult to turn the car with Monza's sharp chicanes. While it is not known what Ferrari's exact aero balance was at Monza, it is safe to assume this front wing upgrade aimed to perform within the optimal 42%-44% range. Below is an example of how front downforce is affected by ride height and wing angle:
+
+![Aero Balance](images/FerrariRearWings.png "Ferrari Rear Wings")
+
 <br><br>
 
 **Rear Wing Analysis**
