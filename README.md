@@ -13,6 +13,15 @@ One-Stop VS Two-Stop Strategy
 7. Findings & Conclusion
 8. References
 
+**Acknowledgement:** I'd like to thank Casper Guo who created the FastF1 Python Package. This package is streamline and extremely simple to import as seen in the below screenshot:
+
+
+
+
+This made it possible to fetch lap and telemetry data inside of Python and be able to conduct analysis. Below is a link to his GitHub to support his work.
+
+https://github.com/theOehrly/Fast-F1
+
 
 **1. Introduction**
 
@@ -151,12 +160,16 @@ NOTE: The drop off in Norris' telemetry at the end of the plot is due to him ent
 
 Leclerc managed to pull off one of the more daring strategies of the 2024 season and it begs the question: Why was his car able to minimize degredation, yet maintain good pace compared to McLaren? Ferrari and McLaren brought significant upgrades to their cars the week of the Italian Grand Prix. Both teams provided official receipts to the FIA of the upgrades they were bringing to the Italian Grand Prix which can provide valuable insights on what teams prioritize for performance at a circuit. 
 
+**NOTE:** *For all teams, the "ride height" is an implied change each race due to this being a part of the car setup not a physical upgrade. While the ride height does affect the aerodynamics, it is not implemented by physically altering the geometry or shape of the car's body.*
+
 *Below are Ferrari's Monza specific upgrades:*
 
 **Ferrari**
 - Front wing: "The depowered front wing flap provides the required aero balance range associated to the optimum downforce level anticipated for Monza. Different trims are available, to allow modulation."
 
 - Rear wing: "This update features depowered Top and Lower Rear Wing profiles in order to adapt to Monza layout peculiarities and efficiency requirements. Both a new design and the carry-over of last year’s geometries (TRW and LRW) will be available."
+
+
 <br><br>
 
 **Front Wing Analysis**
@@ -173,9 +186,14 @@ While it may seem like there is little to no difference in the front wing, "depo
 
 *What Is Aero Balance?*
 
-Aero balance quantifies how much total downforce is distributed onto the front axle. In the case of Monza, since it has high speed straights and slow corners, the optimal aero balance range rewards lower front load (AB ~42%-44%). So this means the optimal aero balance is a package that distrubutes ~42%-44% of the downforce onto the front wing. An aero balance that favors too much of the *front* can cause the rear to slide in corners, making it less stable. Contrary, an aero balance that favors too much of the *rear* can cause understeer, making it difficult to turn the car with Monza's sharp chicanes. While it is not known what Ferrari's exact aero balance was at Monza, it is safe to assume this front wing upgrade aimed to perform within the optimal 42%-44% range. Below is an example of how front downforce is affected by ride height and wing angle:
+Aero balance quantifies how total downforce is distributed between the front and rear axles. At a track like Monza, which features high-speed straights and slow chicanes, an optimal aero balance typically shifts more downforce to the rear while maintaining 42-44% of the total downforce on the front axle. A front-heavy aero balance (too much downforce at the front) can cause the rear to become unstable, making it difficult to control through Monza’s chicanes and braking zones. Conversely, an excessive rearward aero balance can induce understeer, making the car sluggish through corners. While Ferrari’s exact aero balance at Monza is unknown, it is reasonable to assume that their front wing adjustments were designed to operate within the optimal 42-44% range for Monza’s low-downforce characteristics. Below is a visualization showing how front downforce is affected by ride height and wing angle:
 
-![Aero Balance](images/FerrariRearWings.png "Ferrari Rear Wings")
+![Aero Balance](images/AeroBalnceFront.png "Aero Balance Example")
+
+The x-axis represents rear ride height, while the y-axis represents front ride height. The red areas indicate the highest front downforce, while blue areas indicate lower front downforce.
+
+Since lower front downforce is preferred for Monza, teams likely set their ride heights to fall within the blue zones, balancing a slightly higher front ride height with a lower rear ride height to maximize straight-line speed while maintaining cornering stability.
+
 
 <br><br>
 
@@ -186,7 +204,9 @@ Ferrari' other upgrade involved their rear wing, which aimed to further reduce d
 ![Ferrari Rear Wing](images/FerrariRearWings.png "Ferrari Rear Wings")
 Photo Courtesy of F1Unchained Youtube Channel
 
-The 2024 iteration of the Monza rear wing has a less pronounced beam, thus trimming drag even more from the previous iteration. Trimming the wing too much can cause instability in the rear, so this is a testiment to the engineers balancing the car well. While these two aerodynamic upgrades were not the only reason for Leclcerc winning, it played a crucial role to allow him, as the driver, to execute their devilish one-stop strategy.
+The 2024 iteration of Ferrari’s Monza rear wing featured a less pronounced beam wing, further trimming drag compared to its previous version. While reducing rear wing downforce improves straight-line speed, trimming it too much can cause rear instability, making the car harder to control under braking and through chicanes. However, Ferrari’s engineers carefully balanced the car, ensuring that despite the reduced rear downforce, there was still enough rear stability to allow the front end to operate within the optimal aero balance range (~42-44%). This balance was critical in enabling Ferrari’s one-stop strategy, as it helped manage tyre wear while maximizing top speed. In Formula 1, "car balance" refers to the intricate relationship between all components of the car. Every element is interconnected, and they must be precisely tuned to work in harmony for optimal performance. Balancing the front and rear wings is just a glimpse into the complexity of tuning a Formula 1 car. A deeper analysis would extend beyond the scope of this project and is best explained by an engineer.
+
+While these two aerodynamic upgrades were not the only reason for Leclcerc winning, it played a crucial role to allow him, as the driver, to execute their devilish one-stop strategy.
 
 ![GP Photo](images/GPPhoto1.jpeg "GP Photo")
 
@@ -211,7 +231,7 @@ With the car fully integrated, the brake duct is partially visible in the encirc
 
 ![McLaren Track Shot](images/MDuct.png "McLaren Track Shot")
 
-Brake ducts are important for cooling but are also integral to the aerodynamics of the car by reducing the *"outwash"* effect. Outwash is caused by the front tires generating turbulent air, disrupting the aerodynamics for the rest of the car. Therefore, brake ducts are designed to control and redirect air towards the floor, sidepods and posterior of the car while still cooling the brakes. Below is a diagram of an older F1 car model, but still showcasing the general premise of brake ducts. The red rectangle highlights where the duct is located. The red arrows indicate where the air is directed after coming in contact with the brake ducts:
+As stated, brake ducts are important for cooling but are also integral to the aerodynamics of the car by reducing the *"outwash"* effect. Outwash is caused by the front tires generating turbulent air, disrupting the aerodynamics for the rest of the car. Therefore, brake ducts are concurrently designed to control and redirect air towards the floor, sidepods and posterior of the car while still cooling the brakes. Below is a diagram of an older F1 car model, but still showcasing the general premise of brake ducts. The red rectangle highlights where the left front brake duct is located. The red arrows indicate where the air is directed after coming in contact with the brake ducts:
 
 
 
