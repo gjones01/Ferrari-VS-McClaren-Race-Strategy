@@ -176,7 +176,7 @@ While these two aerodynamic upgrades were not the only reason for Leclcerc winni
 
 **Front Corner Analysis**
 
-Firstly, it is important to address McLaren's front corner upgrade was implemented for more efficient brake ducts. The front corner is a portion of the front wing that interacts with the air first before passing through into the brake ducts. The primary function of brake ducts is to provide adequate cool air into the braking system to prevent it from overheating. However, brake ducts are not just for maintaining brake temperatures, but play a role in tyre temperature, which in turn contributes to tyre sustainability. As a matter of fact, brake ducts also behave as an aerodynamic element that is responsible for managing airflow to other components of the car. Below is a photo of McLaren's brake duct the weekend of the Italian GP.
+The front corner is a portion of the front wing that interacts with the air before passing through into the brake ducts. The primary function of brake ducts is to provide adequate air into the braking system to prevent it from overheating. However, brake ducts are not just for maintaining brake temperatures, but play a role in tyre temperature, which in turn contributes to tyre sustainability. As a matter of fact, brake ducts also behave as an aerodynamic element that is responsible for managing airflow to other components of the car. Below is a photo of McLaren's brake duct the weekend of the Italian GP.
 
 ![McLaren Brake Duct](images/McLarenBrakeDuct.png "McLaren Brake Duct")
 
