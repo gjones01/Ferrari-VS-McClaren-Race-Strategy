@@ -26,7 +26,7 @@
 
 This project analyzes the strategic differences between Ferrari and McLaren at the 2024 Italian Grand Prix, focusing on how tyre degradation, telemetry data, and car upgrades influenced the race outcome. By comparing Charles Leclerc’s one-stop strategy to Lando Norris’ two-stop strategy, this analysis explores why Ferrari’s approach was successful despite McLaren’s strong qualifying performance.
     
-*While both Ferrari drivers followed the one-stop and both McLaren drivers followed the two-stop, this project specifically focuses on Charles Leclerc (Ferrari) and Lando Norris (McLaren). Even though Norris was not the highest finishing McLaren driver, there were significantly more encounters with him and Leclerc, providing some interesting analysis between the drivers.*
+*While both Ferrari drivers followed the one-stop and both McLaren drivers followed the two-stop, this project specifically focuses on Charles Leclerc (Ferrari) and Lando Norris (McLaren). Despite Norris not being the highest finishing McLaren driver, there were significantly more encounters with him and Leclerc, providing some interesting analysis between the drivers.*
 <br><br>
 
 
@@ -79,7 +79,7 @@ Cons:
 <br><br>
 
 *Track Layout:*
-The circuit at Monza has a reputation of having high-degreation due to long high-speed straights that enter in to slow sharp corners. The dramatic change in speed places significant stress on the tyres, causing them to wear faster than other circuits such as Monaco or Singapore. 
+The circuit at Monza has a reputation of high tyre degreation due to long high-speed straights that enter in to slow sharp corners. The dramatic change in speed places significant stress on the tyres, causing them to wear faster than other circuits such as Monaco or Singapore. 
 <br><br>
 
 
@@ -110,7 +110,7 @@ Now that we’ve established the key moments of the race and taken generalizatio
 
 **3. Aerodynamic Package**
 
-Leclerc managed to pull off one of the more daring strategies of the 2024 season and it begged the question: Why was his car able to minimize degredation, yet maintain comparable to McLaren?
+Leclerc managed to pull off one of the more daring strategies of the 2024 season and it begged the question: Why was his car able to minimize degredation, yet maintain comparable speed to McLaren?
 
 **NOTE:** *For all teams, the "ride height" is an implied change each race due to this being a part of the car setup not a physical upgrade. While the ride height does affect the aerodynamics, it is not implemented by physically altering the geometry or shape of the car's body. All quoted statements of the upgrades are from the F1 teams themselves.*
 
@@ -126,19 +126,19 @@ Leclerc managed to pull off one of the more daring strategies of the 2024 season
 
 **Front Wing Analysis**
 
-Firstly, like many teams at Monza, Ferrari opted for a low downforce front wing design. As mentioned before, tyre degredation is an important factor in being competitive at such a circuit. Less downforce means there will be less stress on the tyres, especially in high-speed braking zones. Simply put, the car is not "pushed" into the ground as aggressively, thus protecting the tyre life. Below is a photo comparison of the front wing designs from the Belgium Grand Prix (which is a medium downforce circuit) and Italian Grand Prix (which is a low downforce circuit). The highlighted line on the top of the wing edge shows the differing geometric shapes:
+Firstly, like many teams at Monza, Ferrari opted for a low downforce front wing design. Less downforce means there will be less stress on the tyres, especially in high-speed braking zones. Simply put, the car is not "pushed" into the ground as aggressively, thus protecting the tyre life. Below is a photo comparison of the front wing designs from the Belgium Grand Prix (which is a medium downforce circuit) and Italian Grand Prix (which is a low downforce circuit). The highlighted line on the top of the wing edge shows the differing geometric shapes:
 <br><br>
 
 ![Ferrari Front Wing](images/FerrariFrontWings.png "Ferrari Front Wings")
 Photo Courtesy of F1Unchained Youtube Channel
 <br><br>
 
-While it may seem like there insignificant differences in the front wing, "depowering" the wing by shallowing it reduces the downforce implied on the front of the car. In turn this reduces the stress on the tyres, thus minimizing degredation. This upgrade for Ferrari made it apparent that they were willing to sacrifice more cornering speed at the benefit of preserving their tyres, much like the philosophy of other teams. Concurrently, this helps with straight line speed for the long stragihts. Ferrari also stated that this low downforce setup in the front wing provide the "required aero balance" for the circuit.
+While it may seem like there are insignificant differences in the front wing, "depowering" the wing by shallowing it reduces the downforce implied on the front of the car. This upgrade for Ferrari made it apparent that they were willing to sacrifice some cornering speed at the benefit of preserving their tyres, much like the philosophy of other teams. Concurrently, this helped with straight line speed for the long stragihts. Ferrari also stated that this low downforce setup in the front wing provide the "required aero balance" for the circuit.
 <br><br>
 
 *What Is Aero Balance?*
 
-Aero balance quantifies how the total downforce is distributed onto the front axle. At a track like Monza, which features high-speed straights and slow chicanes, an optimal aero balance typically shifts more downforce to the rear while maintaining 42-44% of the total downforce on the front axle. A front-heavy aero balance (too much downforce at the front) can cause the rear to become unstable, making it difficult to control through Monza’s chicanes and braking zones. Conversely, an excessive rearward aero balance can induce understeer, making the car sluggish through corners. While Ferrari’s exact aero balance at Monza is unknown, it is reasonable to assume that their front wing adjustments were designed to operate within the optimal 42%-44% range for Monza’s low-downforce characteristics. Below is a visualization showing how front downforce is affected by ride height and front wing angle:
+Aero balance quantifies how the total downforce is distributed onto the front  and rear axle. At a track like Monza, which features high-speed straights and slow chicanes, an optimal aero balance typically shifts more downforce to the rear while maintaining 42%-44% of the total downforce on the front axle. A front-heavy aero balance (too much downforce at the front) can cause the rear to become unstable, making it difficult to control through Monza’s chicanes and braking zones. Conversely, an excessive rearward aero balance can induce understeer, making the car sluggish through corners. While Ferrari’s exact aero balance at Monza is unknown, it is reasonable to assume that their front wing adjustments were designed to operate within the optimal 42%-44% range for Monza’s low-downforce characteristics. Below is a visualization showing how front downforce is affected by ride height and front wing angle:
 
 ![Aero Balance](images/AeroBalnceFront.png "Aero Balance Example")
 
